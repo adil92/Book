@@ -1,0 +1,51 @@
+.todoitem {
+  border-bottom: 1px solid #fff;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.removeTodo {
+  color: rgba(73, 204, 249, 1);
+  border-color: rgba(73, 204, 249, 1);
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 500px;
+  border-style: solid;
+  float: right;
+  opacity: 0;
+  margin: 10px;
+}
+
+.doneTodo {
+  color: rgba(73, 204, 249, 1);
+  border-color: rgba(73, 204, 249, 1);
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 500px;
+  border-style: solid;
+  float: right;
+  margin: 10px;
+  opacity: 0;
+}
+
+.doneTodo:hover,
+.removeTodo:hover {
+  background-color: #fff;
+}
+
+.doneTodo:active,
+.removeTodo:hover {
+  color: #333;
+}
+
+.todoitem:hover .removeTodo {
+  opacity: 1;
+}
+
+.todoitem:hover .doneTodo {
+  opacity: 1;
+}

@@ -1,0 +1,13 @@
+<div class="todo-input">
+  <h2 class="todo-title">Librat per tu lexuar</h2>
+
+  <input
+    type="text"
+    (keydown.enter)="onKeypress($event)"
+    [(ngModel)]="todoText"
+    value="{{ todoText }}"
+  />
+  <button class="btn btn-primary" (click)="addTodo()">
+    +
+  </button>
+</div>

@@ -1,0 +1,16 @@
+.rreshti1 {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.column1 {
+  background-color: blue;
+  min-height: 300px;
+  padding: 50px 30px;
+}
+
+.column2 {
+  background-color: green;
+  min-height: 300px;
+  padding: 50px 30px;
+}

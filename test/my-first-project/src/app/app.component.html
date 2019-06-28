@@ -1,0 +1,21 @@
+<div class="main">
+  <app-header></app-header>
+
+  <div class="container-fluid">
+    <div class="row rreshti1">
+      <div class="col-md-6 ">
+        <div class="col-md-12 column1">
+          <app-todo></app-todo>
+          <div *ngFor="let todo of todoService.getTodos()">
+            <app-todo-item [todo]="todo"></app-todo-item>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="col-md-12 column2">
+          <app-done></app-done>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
